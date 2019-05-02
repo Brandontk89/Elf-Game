@@ -2,7 +2,7 @@
     "id": "239f3c5d-4e90-46be-a671-1dd97269d1c7",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "dirt_sprite",
+    "name": "s_dirt1",
     "For3D": false,
     "HTile": false,
     "VTile": false,

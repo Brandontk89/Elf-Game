@@ -2,7 +2,7 @@
     "id": "af07bd4a-5094-4286-ae0d-79ce80197e94",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "column1_o",
+    "name": "o_column1",
     "eventList": [
         
     ],

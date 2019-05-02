@@ -2,7 +2,7 @@
     "id": "a1e62be5-03d6-4d5f-aacd-3003d966cba7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "dirt_o",
+    "name": "o_dirt1",
     "eventList": [
         
     ],
