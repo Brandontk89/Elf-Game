@@ -43,7 +43,7 @@ if (!place_meeting(x,y+1,o_dirt1))
 	sprite_index = s_playerAir;
 	image_speed = 1;	
 	if (sign(vsp) > 0) {
-		if image_index > 3 {	
+		if image_index > 4 {	
 			image_index = 1
 		}
 	} else {
