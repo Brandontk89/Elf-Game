@@ -1,0 +1,1 @@
+if (place_meeting(x,y,o_dirt1)) instance_destroy ()
