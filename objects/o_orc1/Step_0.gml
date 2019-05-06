@@ -7,7 +7,7 @@ if (place_meeting(x+hsp,y,o_dirt1))
 	{
 		x = x + sign(hsp);
 	}
-	hsp = 0;
+	hsp = -hsp;
 }
 x = x + hsp;
 
@@ -27,7 +27,7 @@ if (!place_meeting(x,y+1,o_dirt1))
 {
 	sprite_index = s_orc1;
 	image_speed = 0	
-	if (sign(vsp) > 0) image_index =1; else image_index = 0
+	if (sign(vsp) > 0) image_index =2; else image_index = 0
 }
 else
 {

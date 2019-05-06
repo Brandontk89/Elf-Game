@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "0c95f721-369b-4708-9022-bc2acaafac02",
-            "Value": {
-                "id": "3b072458-d3d2-4b74-8b87-b181094528d0",
-                "resourcePath": "sprites\\s_orc\\s_orc.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1168f639-9764-4804-a6ca-bdd2e0558b58",
             "Value": {
                 "id": "59b5dc7b-8861-4713-914d-9773c8c4baac",
@@ -84,6 +76,14 @@
                 "id": "7f5022a4-3810-4a41-9c5f-5ef9678e019d",
                 "resourcePath": "views\\25788996-bf7c-4ac2-881c-67c7053a01b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "31975cc7-88a6-4da7-9c5b-d105819b3b3b",
+            "Value": {
+                "id": "e3efbefe-f87e-411d-822c-30f7ad4235e1",
+                "resourcePath": "objects\\o_orcdead1\\o_orcdead1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -132,14 +132,6 @@
                 "id": "bdc07f2c-17f7-4194-847b-a6bc66dfbb1a",
                 "resourcePath": "views\\512bcee3-95eb-4b8c-9096-7d1ffb795709.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "51cd467c-7eca-48a5-9302-aaf5ec049452",
-            "Value": {
-                "id": "bc0ca12a-35b4-4b31-8090-dc6801a0efdc",
-                "resourcePath": "objects\\o_orc2\\o_orc2.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -247,14 +239,6 @@
             }
         },
         {
-            "Key": "a42011b5-5b29-4e94-9c62-238c657eebe8",
-            "Value": {
-                "id": "b6875835-5e41-4ea6-9f12-48195aeb2a04",
-                "resourcePath": "shaders\\shWhite\\shWhite.yy",
-                "resourceType": "GMShader"
-            }
-        },
-        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "57bfd88f-a839-4014-b883-0cf2db432e06",
@@ -315,6 +299,14 @@
             "Value": {
                 "id": "c19852a8-88ff-40db-bd51-ea4f5595a369",
                 "resourcePath": "sprites\\s_playerRun\\s_playerRun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eec99547-d101-4aba-a6b0-3c56f9a71834",
+            "Value": {
+                "id": "e6ff2970-805f-4276-b9a9-870f8c0d4408",
+                "resourcePath": "sprites\\s_orcdead1\\s_orcdead1.yy",
                 "resourceType": "GMSprite"
             }
         },
