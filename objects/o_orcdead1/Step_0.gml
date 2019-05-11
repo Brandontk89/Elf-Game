@@ -19,7 +19,7 @@ if (done == 0)
 		if (vsp > 0) 
 		{
 		done = 1
-		image_index = 0
+		image_index = 4
 		}
 		while (!place_meeting(x,y+sign(vsp),o_dirt1))
 		{
@@ -28,4 +28,10 @@ if (done == 0)
 		vsp = 0;
 	}
 	y = y + vsp;
+}
+
+
+if animation_end {
+	image_speed = 0
+	image_index = 3
 }
