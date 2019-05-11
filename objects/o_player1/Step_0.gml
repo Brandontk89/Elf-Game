@@ -1,7 +1,11 @@
 //Get Player Input
+
+if (hascontrol)
+
 key_left = keyboard_check(ord ("A"))
 key_right = keyboard_check(ord ("D"))
 key_jump = keyboard_check_pressed(vk_space);
+
 
 //Calculate Movement
 var move = key_right - key_left;
@@ -43,10 +47,13 @@ if (!place_meeting(x,y+1,o_dirt1))
 	sprite_index = s_playerAir;
 	image_speed = 1;	
 	if (sign(vsp) > 0) {
-		if image_index > 3 {	
+		if image_index > 3 
+		{	
 			image_index = 1
 		}
-	} else {
+	} 
+	else 
+	{
 		image_index = 0
 	}
 }
@@ -62,4 +69,4 @@ else
 		sprite_index = 	s_playerRun;
 	}
 }
-if (hsp != 0) image_xscale = sign(hsp);
+if (hsp != 0) image_xscale = sign(hsp)

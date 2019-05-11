@@ -114,7 +114,7 @@
             "Key": "3ab8e7e3-c30e-4a9e-8328-e5a299eec2ec",
             "Value": {
                 "id": "82bbcac9-bf0f-45a7-bfe4-d4f62f2d39a4",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\r_level0\\r_level0.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -135,6 +135,22 @@
             }
         },
         {
+            "Key": "462a7f9c-34cf-40ab-b166-57ee1eb5414a",
+            "Value": {
+                "id": "5524a055-81f5-481a-87dc-ac9081e8cb4e",
+                "resourcePath": "rooms\\r_menu\\r_menu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "501edeb1-3da9-4844-90a7-a65021b8659d",
+            "Value": {
+                "id": "0f32a28a-03cc-4266-af8e-fc2b581552cf",
+                "resourcePath": "objects\\o_menu\\o_menu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "512bcee3-95eb-4b8c-9096-7d1ffb795709",
             "Value": {
                 "id": "bdc07f2c-17f7-4194-847b-a6bc66dfbb1a",
@@ -151,6 +167,14 @@
             }
         },
         {
+            "Key": "5ab13068-bc14-4729-8d34-926787c941ee",
+            "Value": {
+                "id": "7547a262-fc0c-431b-ac23-4302066e21ba",
+                "resourcePath": "fonts\\f_menu\\f_menu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "5b3ef1b3-6875-4088-a7ef-2cf5af854695",
             "Value": {
                 "id": "472752c3-d066-4c26-92e6-951539dad2f4",
@@ -164,6 +188,14 @@
                 "id": "091b7d86-13d9-4d38-b799-91986170ab9c",
                 "resourcePath": "objects\\o_orcspawn\\o_orcspawn.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5eb390ef-35e7-4333-aa2a-c755cdd84e68",
+            "Value": {
+                "id": "5639aae4-3e22-42b8-818e-73f1bbb79cca",
+                "resourcePath": "sprites\\s_trees\\s_trees.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -203,6 +235,14 @@
             "Value": {
                 "id": "9ffbb96a-8ab4-4778-9223-e8af54c4c858",
                 "resourcePath": "scripts\\slidetransition\\slidetransition.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "84848c9a-a838-422d-9f43-6ae2acb4b8fa",
+            "Value": {
+                "id": "5a731218-136d-43dc-8b96-2d2b8e9c75dd",
+                "resourcePath": "scripts\\screenshake\\screenshake.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -255,6 +295,14 @@
             }
         },
         {
+            "Key": "905e6e57-1c19-452c-8b00-429adfa1200f",
+            "Value": {
+                "id": "b8162895-cb76-4b86-9a9c-db993e9b2c74",
+                "resourcePath": "sprites\\s_trigger\\s_trigger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "962441b6-3c70-4b31-b1c4-95fd43bc00bb",
             "Value": {
                 "id": "4d1a89a8-8040-47aa-ad23-d9217fd96056",
@@ -295,6 +343,14 @@
             }
         },
         {
+            "Key": "ba398062-5813-474e-8ef4-1770f221a90e",
+            "Value": {
+                "id": "89e7c7bb-87b5-4593-9de7-7ab280085c63",
+                "resourcePath": "sprites\\s_mountain\\s_mountain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c3dc4f69-740a-421d-9fe6-c48edc2df0ec",
             "Value": {
                 "id": "a84262e0-2f3e-4ce0-86cb-f9e19e1dc4e9",
@@ -322,7 +378,7 @@
             "Key": "cfdf0fe2-9a23-40bf-93ff-d5493a9cb14d",
             "Value": {
                 "id": "b679f669-713c-47b0-ab8a-a2cfad9a92e8",
-                "resourcePath": "rooms\\room01\\room01.yy",
+                "resourcePath": "rooms\\r_level1\\r_level1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -365,11 +421,20 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "fd0bcf35-019f-46cb-bf81-2d7f1ebf434a",
+            "Value": {
+                "id": "fd105638-4c3c-4788-b21c-08edf365d65a",
+                "resourcePath": "objects\\o_levelend\\o_levelend.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
         "8e63f387-e2ca-477e-94e3-e59ce79f8c80",
-        "8323e3d1-fda0-4e9f-8a53-70b0d553b770"
+        "8323e3d1-fda0-4e9f-8a53-70b0d553b770",
+        "84848c9a-a838-422d-9f43-6ae2acb4b8fa"
     ],
     "tutorial": ""
 }

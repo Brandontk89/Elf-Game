@@ -8,8 +8,9 @@ recoil = max(0,recoil - 1)
 
 if (mouse_check_button_pressed(mb_left)) and (firingdelay < 0)
 {
-	recoil = 2
 	firingdelay = 4
+	recoil = 2	
+	screenshake(1,3)
 	with (instance_create_layer(x,y,"Arrows", o_arrow1))
 	{
 		speed = 15
