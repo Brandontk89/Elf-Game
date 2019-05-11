@@ -7,14 +7,15 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 63,
-    "bbox_left": 20,
-    "bbox_right": 52,
-    "bbox_top": 8,
+    "bbox_left": 0,
+    "bbox_right": 63,
+    "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
+<<<<<<< Updated upstream
         {
             "id": "16ebfc89-2830-43ad-a77b-9a5ff7c16a9b",
             "modelName": "GMSpriteFrame",
@@ -37,6 +38,9 @@
                 }
             ]
         }
+=======
+        
+>>>>>>> Stashed changes
     ],
     "gridX": 0,
     "gridY": 0,

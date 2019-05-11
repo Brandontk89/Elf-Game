@@ -15,6 +15,7 @@
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
+<<<<<<< Updated upstream
         {
             "id": "d795b0ff-0aea-431c-a0d3-0b999b352152",
             "modelName": "GMSpriteFrame",
@@ -59,6 +60,9 @@
                 }
             ]
         }
+=======
+        
+>>>>>>> Stashed changes
     ],
     "gridX": 0,
     "gridY": 0,

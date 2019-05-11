@@ -6,15 +6,22 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
+<<<<<<< Updated upstream
     "bbox_bottom": 59,
     "bbox_left": 7,
     "bbox_right": 44,
+=======
+    "bbox_bottom": 63,
+    "bbox_left": 0,
+    "bbox_right": 63,
+>>>>>>> Stashed changes
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
+<<<<<<< Updated upstream
         {
             "id": "5ab43d8a-0e8d-4f27-a8a9-1c8d160396b9",
             "modelName": "GMSpriteFrame",
@@ -103,6 +110,9 @@
                 }
             ]
         }
+=======
+        
+>>>>>>> Stashed changes
     ],
     "gridX": 0,
     "gridY": 0,
