@@ -1,1 +1,1 @@
-game_restart()
+slidetransition(TRANS_MODE.RESTART)

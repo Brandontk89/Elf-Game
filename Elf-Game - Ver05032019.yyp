@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02544338-50c7-4c74-8ed2-761630394032",
+            "Value": {
+                "id": "af801de9-c353-477d-a084-17b9e71be7b9",
+                "resourcePath": "objects\\o_transition\\o_transition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "028d05bf-e460-4f9e-b00f-429151bba7ea",
             "Value": {
                 "id": "decbbc71-6bed-4391-8a08-2abfa65c5322",
@@ -154,7 +162,7 @@
             "Key": "5d0c0b31-dce9-4829-873d-2761dd1117d0",
             "Value": {
                 "id": "091b7d86-13d9-4d38-b799-91986170ab9c",
-                "resourcePath": "objects\\object7\\object7.yy",
+                "resourcePath": "objects\\o_orcspawn\\o_orcspawn.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -188,6 +196,14 @@
                 "id": "c2f13974-3742-4637-9196-ba1c9b4b6e48",
                 "resourcePath": "objects\\o_camera\\o_camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8323e3d1-fda0-4e9f-8a53-70b0d553b770",
+            "Value": {
+                "id": "9ffbb96a-8ab4-4778-9223-e8af54c4c858",
+                "resourcePath": "scripts\\slidetransition\\slidetransition.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -303,6 +319,14 @@
             }
         },
         {
+            "Key": "cfdf0fe2-9a23-40bf-93ff-d5493a9cb14d",
+            "Value": {
+                "id": "b679f669-713c-47b0-ab8a-a2cfad9a92e8",
+                "resourcePath": "rooms\\room01\\room01.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d203c1ac-1179-4f09-954e-cde6481cf982",
             "Value": {
                 "id": "ad7dadfa-60a1-4427-93f0-1f42c08e67c6",
@@ -344,7 +368,8 @@
         }
     ],
     "script_order": [
-        "8e63f387-e2ca-477e-94e3-e59ce79f8c80"
+        "8e63f387-e2ca-477e-94e3-e59ce79f8c80",
+        "8323e3d1-fda0-4e9f-8a53-70b0d553b770"
     ],
     "tutorial": ""
 }
