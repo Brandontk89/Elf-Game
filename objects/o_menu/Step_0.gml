@@ -24,6 +24,7 @@ if (menu_control)
 		menu_committed = menu_cursor
 		screenshake(4,30)
 		menu_control = false
+		audio_play_sound(sn_select,10,false)
 	}
 }
 
@@ -31,7 +32,22 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		case 2: default: slidetransition(TRANS_MODE.NEXT); break
+		case 2: slidetransition(TRANS_MODE.NEXT); break
+		case 1: 
+		{
+			if (!file_exists(SAVEFILE))
+			{
+				slidetransition(TRANS_MODE.NEXT)
+			}
+			else
+			{
+				var file = file_text_open_read(SAVEFILE)
+				var target = file_text_read_real(file)
+				file_text_close(file)
+				slidetransition(TRANS_MODE.GOTO,target)
+			}
+		}
+		break;
 		case 0: game_end(); break		
 	}
 }

@@ -41,3 +41,6 @@ else
 		sprite_index = s_orc1
 	}
 }
+
+if (hsp != 0) image_xscale = sign(hsp) * size
+image_yscale = size

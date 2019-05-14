@@ -11,6 +11,8 @@ if (mouse_check_button_pressed(mb_left)) and (firingdelay < 0)
 	firingdelay = 4
 	recoil = 2	
 	screenshake(1,3)
+	audio_play_sound(sn_arrowshot,5,false)
+	audio_sound_pitch(sn_arrowshot,choose(0.8,1.0,1.2))
 	with (instance_create_layer(x,y,"Arrows", o_arrow1))
 	{
 		speed = 15

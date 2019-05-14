@@ -45,21 +45,23 @@ y = y + vsp;
 if (!place_meeting(x,y+1,o_dirt1))
 {
 	sprite_index = s_playerAir;
-	image_speed = 1;	
+	image_speed = 0;	
 	if (sign(vsp) > 0) {
 		if image_index > 3 
 		{	
 			image_index = 1
 		}
-	} 
+} 
 	else 
 	{
-		image_index = 0
+				image_index = 0
 	}
 }
 else
 {
-	image_speed = 1;
+	if (sprite_index == s_playerAir) audio_play_sound(sn_land,1,false)
+		audio_sound_pitch(sn_arrowshot,choose(0.8,1.0,1.5))
+		image_speed = 1;
 	if (hsp == 0)
 	{
 		sprite_index = s_player;
